@@ -116,7 +116,7 @@
   display: none;
 }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
 
 
   /* Adjust the container styling for the mobile version */
@@ -277,9 +277,61 @@
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1150px) {
     .wrapper .carousel {
       grid-auto-columns: calc((100% / 2) - 9px);
+    }
+    .navbar a {
+      margin: 0 1rem;
+    }
+    .box {
+      scale: 2.5;
+   }
+   .opacity{
+    width: 70%;
+   }
+   .opacity h1{
+    font-size: 3rem;
+    width: 70%; /* This affects both selectors. If .span should not have width, you might want to split these */
+    }
+    .map {
+      width: 50%;    
+      height:75.5vh;
+      border: 1px solid #000;
+    }
+    .container {
+      width: 70%;
+    }
+    .contact-form h2{
+      letter-spacing: 2px;
+      font-size: 2rem;
+      text-align: center;
+      margin-top: 0;
+    }  
+    .voice p{
+      font-size: .7rem;
+      line-height: 1.5;
+      padding: 10px 9px;
+      border: 1px solid #5A5A5A;
+      border-radius: 5px;
+    }
+    .contact-form input, .contact-form textarea {
+      margin-bottom: 10px;
+    }
+    .contact-form button {
+      margin-top: 20px;
+    }
+    .voice{
+      margin-bottom: 20px;
+    }
+    .sec1 h3{
+      width: 50%;
+      margin-top: 25vh;
+      line-height: 2.5;
+      font-weight: 500;
+      color: #C9B981;
+      font-size: 1.2rem;
+      text-align: center;
     }
   }
   
@@ -332,7 +384,7 @@
     }
     
   }
-  @media (max-width: 1000px){
+  @media (max-width: 768px){
     .navbar {
       display: none;
     }
@@ -347,7 +399,7 @@
       display: block;
     }
   }
-  @media (max-width: 920px) {
+  @media (max-width: 768px) {
     nav .menu-btn i{
       display: block;
       color: #102020; 

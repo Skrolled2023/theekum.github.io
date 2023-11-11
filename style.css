@@ -13,17 +13,19 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
+    width: 100%;
+    height: 100vh;
 }
 .main{
   overflow: hidden;
 }
 ::-webkit-scrollbar{
-  background-color: #102019;
+  background-color: #102019 !important;
   /* background-color: transparent; */
   width: 8px;
 }
 ::-webkit-scrollbar-thumb{
-  background-color: #B2935B;
+  background-color: #B2935B !important;
   /* background:linear-gradient(transparent,#B2935B); */
   border-radius: 10px;
 }
@@ -121,7 +123,7 @@ body {
     line-height: 2.8;
     font-weight: 500;
     color: #C9B981;
-    font-size: 1.2vw;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -1339,8 +1341,8 @@ input[type="checkbox"]{
 
 /* all hover effects */
 
-.imghover img:hover {
-    transform: scale(1.02); 
+.imghover img:hover{
+    transform: scale(1.05); 
 }
 .navitems a {
   position: relative;
@@ -1365,6 +1367,7 @@ input[type="checkbox"]{
 .navitems a:focus::after {
   width: 100%;
 }
+
 
 
 

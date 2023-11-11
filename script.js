@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Create a ScrollMagic scene
         new ScrollMagic.Scene({
             triggerElement: sec, // Trigger animation when this element is in view
-            triggerHook: 0.9, // Middle of the viewport
+            triggerHook: 0.5, // Middle of the viewport
             reverse: true // Animation will reverse when scrolling up
         })
         .setTween(tl) // Link the timeline to the scene
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Create a ScrollMagic scene
         new ScrollMagic.Scene({
             triggerElement: sec, // Trigger animation when this element is in view
-            triggerHook: 0.9, // Middle of the viewport
+            triggerHook: 1, // Middle of the viewport
             reverse: true // Animation will reverse when scrolling up
         })
         .setTween(tl) // Link the timeline to the scene
@@ -279,6 +279,14 @@ document.addEventListener('DOMContentLoaded', function() {
   
 
 
+//smooth scrolling
 
+let Scrollbar = window.Scrollbar;
+     const options = {
+        "damping": .06,
+        "alwaysShowTracks": true
+     }
+     
+     Scrollbar.init(document.querySelector('body'), options);
 
 
