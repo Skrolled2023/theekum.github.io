@@ -1166,8 +1166,6 @@ font-family: 'Playfair Display', serif;
   background-color: #102019;
   color: white;
   border-radius: 10px 0px 0px 10px;
- 
-
 }
 .contact-form form label{
   font-size: 1rem;
@@ -1225,7 +1223,7 @@ font-family: 'Playfair Display', serif;
 }
 .contact-form h2{
   letter-spacing: 2px;
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-align: center;
 }   
 
