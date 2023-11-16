@@ -454,7 +454,7 @@
     }
 }
   
-@media (max-width:768px) and (orientation: landscape){
+@media (max-width: 1000px) and (orientation: landscape){
   .navbar a{
     font-size: .7rem;
     font-weight: 700;
