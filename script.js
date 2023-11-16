@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', function() {
 let Scrollbar = window.Scrollbar;
      const options = {
         "damping": .06,
-        "alwaysShowTracks": true
+        "alwaysShowTracks": false
      }
      
      Scrollbar.init(document.querySelector('body'), options);
