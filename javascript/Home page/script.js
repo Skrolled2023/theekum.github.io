@@ -1,6 +1,6 @@
 let currentImageIndex = 0;
 const slideshow = document.getElementById('slideshow');
-const imageArray = ["./img/SLIDESHOW2.JPG", "./img/SLIDESHOW 3.JPG","./img/SLIDESHOW 4.JPG"];  // Add more images if needed
+const imageArray = ["./img/SLIDESHOW2.jpg", "./img/SLIDESHOW 3.jpg","./img/SLIDESHOW 4.jpg"];  // Add more images if needed
 
 function changeImage() {
     slideshow.style.opacity = '0'; // Reduce opacity to start the fade-out
