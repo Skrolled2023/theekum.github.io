@@ -155,6 +155,9 @@ body{
     font-size: 1.64rem;
   }
 /* BREAKS (HEADINGS) */
+.underline{
+  display: none;
+}
   .break1 {
     margin-top: 10vh;
     display: flex;
@@ -440,7 +443,9 @@ body{
     right: 10%;
     bottom: -20%;
   }
-
+  .ytu-mob, .leg-mob{
+    display: none;
+  }
   .legacy{
     margin-top: 20vh;
     position: relative;
@@ -495,7 +500,6 @@ body{
     gap: 3vw;
     line-height: 1.8;
   }
-
   .footer{
     margin-top: 20vh;
     background-color: #545e44;
@@ -925,9 +929,88 @@ body{
           right: 0%;
           bottom: -10%;
         }
-      
-        
+        .ytu-mob, .leg-mob{
+          display: block;
+        }
+        .ytum, .leg{
+          display: none;
+        }
+        .leg-info img {
+          top: -6vh;
+          height: 200px;
+          width: 385px;
+        }
+        .break3-text{
+          margin-top: 20vh;
+          font-size: 55px; 
+        }
+        .break4-text{
+          margin-top: 20vh;
+          font-size: 40px; 
+        }
+        .break4{
+          width: 20%;
+          margin-left: 22vw;
+          margin-bottom: 0.4vh;
+        }
+        .break3 {
+          margin-top: 10vh;
+          flex-direction: column;
+          padding-left: 0;
+          padding: 0;
+        }
+        .break3::after {
+          content: '';
+          flex: 0;
+          width: 100;
+          height: 2.5px;
+          background: black;
+        }
+        .leg-info p, .ytu-info p {
+          font-size: 1.1rem;
+          line-height: 2;
+          width: 100%;
+        }
+        .leg-info {
+          display: flex;
+          padding: 0 3vh;
+          text-align: justify;
+        }
+        .ytu-info {
+          display: block;
+          padding: 0;
+          margin: 0 3vh;
+          text-align: justify;
+        }  
+        .ytu-info img{
+          border-radius: 5px;
+          position: absolute;
+          left: 1vw;
+          top: -8vh;
+          height: 200px;
+          width: 385px;
+        }
+       .underline{
+        display: block;
+        width: 82%;
+        margin-left: 8vw;
+        background-color: #000;
+        height: 4px;
+        border-radius: 10px;
+        margin-bottom: 4vh;
+        }
+        .break5 img {
+          width: 100%;
+          height: 300px;
+        }
+        .last-sec {
+          font-size: .6rem;
+        }
+        .hide{
+          display: none;
+        }
         .footer{
+          margin-top: 10vh;
           padding: 10px 5px;
         }
         .foot-icon{

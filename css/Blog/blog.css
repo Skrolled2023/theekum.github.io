@@ -838,14 +838,15 @@ body{
   }
   .col1-elem1,.col1-elem2{
     display: flex;
-    height: 18vh;
+    height: 20vh;
     width: 100%;
     gap: 2vw;
     background-color: #102020;
     color: #fff;
   }
   .col1-elem1 img,.col1-elem2 img{
-    width: 400px;
+    width: 150px;
+    object-fit: cover;
   }
   .col1-inside{
     padding-top: 0.1vh;
@@ -936,7 +937,7 @@ body{
     font-size: 2rem;
   }
   .sec5-mob{
-    height: 44vh;
+    height: 52vh;
     display: block;
     margin: 0 5vw;
     border-radius: 6px;

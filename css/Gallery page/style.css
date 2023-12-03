@@ -434,6 +434,7 @@ body{
   border-radius: 20px;
   margin-top: 60px;
   margin-left: 20px;
+  object-fit: cover;
 }
 
 .slideshow-container3 {
@@ -518,6 +519,7 @@ body{
   height: 521px;
   border-radius: 20px;
   margin-top: 60px;
+  object-fit: cover;
 }
 
 .slideshow-container5 {
@@ -600,6 +602,7 @@ body{
   height: 521px;
   border-radius: 20px;
   margin-top: 60px;
+  object-fit: cover;
 }
 
 .slideshow-container4 {
