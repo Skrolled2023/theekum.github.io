@@ -118,7 +118,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8vw;
+    gap: 2vw;
     padding-right: 8vh;
     height: 100vh;
   }
