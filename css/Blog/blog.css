@@ -40,13 +40,8 @@ body{
     
 }
 .theekum{
-    font-family: myFont;
-    text-align: center;
-    line-height: .8;
-    color: #102020;
-}
-.ekumspan{
-    font-size: 4rem;
+  height: 150px;
+  width: 250px;
 }
 
 /* responsive nav bar start */
@@ -152,7 +147,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20vh;
+  gap: 10vh;
   position: relative;
 }
 .sec1-row{
@@ -195,7 +190,6 @@ body{
   opacity: 1;
 }
 
-/* ... (rest of your CSS) ... */
 .mySlides img{
   object-fit: cover;
   width: 50vw;
@@ -230,7 +224,7 @@ body{
   position: absolute;
   bottom: 20vh;
   left: 2vw;
-  bottom: 10vh;
+  bottom: 15vh;
   color: white;
   padding: 10px;
   text-align: left;
@@ -259,7 +253,7 @@ body{
 }
 .sec2-elem{
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   background-color: #545E44;
   overflow: hidden;
   border-radius: 5px;
@@ -271,7 +265,7 @@ body{
 .sec2-inside{
   height: 40%;
   display: flex;
-  margin-top: 5vh;
+  margin-top: 2vh;
   flex-direction: column;
   padding: 0 20px;
   gap: 2vh;
@@ -298,7 +292,7 @@ body{
   color: white;
   font-size: 1.3rem;
   text-align: end;  
-  bottom: 0;
+  bottom: -3.5vh;
 }
 /* sec3 */
 .sec3{
@@ -306,8 +300,8 @@ body{
 }
 .swiper {
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 30vh;
 }
 
 .swiper-slide {
@@ -387,31 +381,31 @@ body{
 
 .swiper-slide--one {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(https://images.unsplash.com/photo-1556206079-747a7a424d3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80)
+    url("slide/1.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--two {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("https://images.unsplash.com/photo-1571900670723-a317a66e3fb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=423&q=80")
+    url("slide/2.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--three {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("https://images.unsplash.com/photo-1549144511-f099e773c147?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80")
+    url("slide/3.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--four {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("https://images.unsplash.com/photo-1650367310179-e1b5b8e453c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    url("slide/4.png")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--five {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("https://images.unsplash.com/photo-1596521864207-13d46b1a0c78?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80")
+    url("slide/5.png")
       no-repeat 50% 50% / cover;
 }
 
@@ -437,13 +431,13 @@ body{
 }
 .col1-elem1,.col1-elem2{
   display: flex;
-  width: 90%;
+  width: 100%;
   gap: 2vw;
   background-color: #102020;
   color: #fff;
 }
 .col1-elem1 img,.col1-elem2 img{
-  width: 400px;
+  width: 300px;
 }
 .col1-inside{
   padding-top: 3vh;
@@ -468,7 +462,8 @@ body{
   font-size: 1.2rem;
   text-decoration: none;
   color: #fff;
-  padding-bottom: 2vh;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
   text-align: end;
   padding-right: 1vw;
   letter-spacing: 2px;
@@ -484,7 +479,7 @@ body{
 .col2 h1{
   position: absolute;
   bottom: 10vh;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 1.7rem;
   left: 2.5vw;
   width: 80%;
@@ -508,7 +503,7 @@ body{
   text-decoration: none;
   position: absolute;
   font-size: 1.5rem;
-  bottom: 0;
+  bottom: -5vh;
   left: 6vw;
   color: #000000;
   font-family: 'Playfair Display', serif;
@@ -531,10 +526,11 @@ body{
 .sec5-row1 img{
   border-radius: 5px;
   width: 58vw;
+  height: 98vh;
 }
 .row1-inside{
   position: absolute;
-  bottom: 2vh;
+  bottom: 10vh;
   padding-left: 2vw;
 }
 .row1-inside h1{
@@ -543,14 +539,14 @@ body{
   font-weight: 500;
 }
 .row1-inside a{
-  padding-left: 45vw;
+  padding-left: 40vw;
   text-decoration: none;
   font-size: 1.5rem;
   color: #fff;
   letter-spacing: 2px;
 }
 .sec5-row2{
-  width: 24%;
+  width: 30%;
 }
 .row2-elements1{
   /* width: ; */
@@ -564,6 +560,7 @@ body{
 }
 .row2-elements1 img{
   width: 100%;
+  height: 25vh;
 }
 .elements1-inside h3{
   font-family: 'Playfair Display', serif;
@@ -584,11 +581,16 @@ body{
   margin-top: 1vh;
   color: #fff;
 }
-.elems img{
-  height: 14.5vh;
+.image1{
+  height: 127px;
+  width: 146px;
+}
+.image2{
+  height: 127px;
+  width: 146px;
 }
 .elems-inside{
-  padding:0 .4vw;
+  padding:0.4vw;
 }
 .elems-inside h3{
   font-size: .7rem;
@@ -598,14 +600,14 @@ body{
 .elems-inside p{
   font-size: .6rem;
   margin-top: 1vh;
-  margin-bottom: 1.5vh;
+  margin-bottom: 0vh;
   line-height: 1.4;
 }
 .rdmore{
   text-decoration: none;
   color: #fff;
   font-size: .8rem;
-  padding-left: 6vw;
+  padding-left: 8vw;
 }
 /* sec5 end */
   .footer{
@@ -729,6 +731,11 @@ body{
     background: none;
     color: cyan;
   }
+  .theekum{
+    width: 170px;
+    height: 120px;
+    margin-top: 1vh;
+  }
   .sec1{
     margin-top: 10vh;
     height: 45vh;
@@ -829,6 +836,9 @@ body{
   .sec3{
     margin-top: 10vh;
   }
+  .swiper{
+    padding-bottom: 10vh;
+  }
   .swiper-slide {
     width: 350px;
     height: 300px;
@@ -901,7 +911,8 @@ body{
   .sec5-row1 img{
     border-radius: 5px;
     width: 100%;
-    height: 50vh;
+    height: 70vh;
+    object-fit: cover;
   }
   .row1-inside{
     position: absolute;

@@ -40,13 +40,8 @@ body{
     
 }
 .theekum{
-    font-family: myFont;
-    text-align: center;
-    line-height: .8;
-    color: #102020;
-}
-.ekumspan{
-    font-size: 4rem;
+  height: 150px;
+  width: 250px;
 }
 
 /* responsive nav bar start */
@@ -596,6 +591,11 @@ div.panel.show {
   nav ul li a:hover{
     background: none;
     color: cyan;
+  }
+  .theekum{
+    width: 170px;
+    height: 120px;
+    margin-top: 1vh;
   }
   .header {
     margin-top: 10vh;

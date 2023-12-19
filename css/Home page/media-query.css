@@ -13,7 +13,11 @@
         font-size: 1.3vh;
         margin-top: 35vh;
     }
-
+    .theekum{
+      width: 170px;
+      height: 120px;
+      margin-top: 1vh;
+    }
     .sec1 {
         width: 82%;
         height: 40vh;
@@ -28,16 +32,17 @@
     .sec1-div{
         flex-direction: column;
         gap: 0.1vh;
-        
+        padding-left: 0;
     }
 
     .sec1 h1 {
         font-family: myFont;
-        font-size: 3.5rem;
+        font-size: 3rem;
         text-align: center;
         margin-top: 0;
         margin-bottom: 0.5rem;
         margin-left: 0;
+        width: 100%;
     }
 
     .sec1 h3 {
@@ -257,7 +262,10 @@
       margin-bottom:4vh;
       margin-top: 2vh;
     }
-
+    .formbg{
+      height: 80vh;
+      object-fit: cover;
+    }
     .sec7{
       /* background-color: #102019; */
       display: flex;

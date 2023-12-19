@@ -37,15 +37,9 @@ body {
     text-transform:uppercase;
 }
 .theekum{
-    font-family: myFont;
-    text-align: center;
-    line-height: .8;
-    color: #102020;
+    height: 150px;
+    width: 250px;
 }
-.ekumspan{
-    font-size: 4rem;
-}
-
 .icon{
     font-size: 2.5rem;
     color: #102020;
@@ -91,8 +85,8 @@ body {
 
 .sec1-div{
     display: flex;
-    padding-left: 5 vh;
-    gap: 20vh;
+    padding-left: 5vh;
+    gap: 10vh;
 }
 
 .sec1 h1{
@@ -108,7 +102,7 @@ body {
     line-height: 2.8;
     font-weight: 500;
     color: #C9B981;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
 }
 
@@ -142,12 +136,13 @@ body {
 .sec2-head h1{
   font-family: 'Playfair Display', serif;
   background-color: #878B7F;
-  width: 30%;
+  width: 40%;
   color: #1F2D16;
   text-align: center; 
   font-size: 4rem;
   padding: 8vh 0;
-  padding-right: 7vw;
+  padding-right: 1vw;
+  
 }
 
 .sec3{
@@ -222,7 +217,7 @@ body {
 .opacity {
     position: relative;
     width: 45vw;
-    height: 22vh;
+    height: 26vh;
     background-color: transparent;
     border-radius: 0 1.5vh 1vh 0;
 }
@@ -239,7 +234,7 @@ body {
 
 .opacity h1{
     font-family: 'Playfair Display', serif;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 0;
     opacity: 1;
     line-height: 1.1;
@@ -303,11 +298,12 @@ body {
 
 .overlay-text p {
     font-size: 1.2rem;
-    margin-top: 8vh;
+    margin-top: 12vh;
     width: 55%;
     line-height: 1.7;
     font-weight: 600;
     text-align: center;
+    margin-left: 2%;
 }
 .sec4-mob{
   display: none;
@@ -465,7 +461,7 @@ font-family: 'Playfair Display', serif;
   width: 384px;
   height: 192px;
   /* position: absolute; */
-  scale: 3.5;
+  scale: 3;
 }
 
 .box .group {
@@ -678,7 +674,7 @@ font-family: 'Playfair Display', serif;
 
 .box .overlap-7 {
   position: absolute;
-  width: 110px;
+  width: 105px;
   height: 34px;
   top: 0;
   left: 59px;
@@ -755,7 +751,7 @@ font-family: 'Playfair Display', serif;
 
 .box .overlap-11 {
   position: absolute;
-  width: 110px;
+  width: 115px;
   height: 34px;
   top: 158px;
   left: 59px;
@@ -1183,7 +1179,7 @@ font-family: 'Playfair Display', serif;
 .map {
   border-radius: 0px 10px 10px 0px;
   width: 50%;    
-  height:73vh;
+  height:77vh;
   border: 1px solid #000;
 }
 .voice{
@@ -1191,17 +1187,17 @@ font-family: 'Playfair Display', serif;
   display: flex;
   justify-content: center;
   gap: 2vh;
-  margin-bottom:4vh;
-  margin-top: 2vh;
+  margin-bottom:1vh;
+  margin-top: 0vh;
 }
 .voice img{
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   padding-top:1.8vh;
 }
 
 .voice p{
-  font-size: .8rem;
+  font-size: .6rem;
   line-height: 1.5;
   padding: 10px 9px;
   border: 1px solid #5A5A5A;
@@ -1211,6 +1207,7 @@ font-family: 'Playfair Display', serif;
   letter-spacing: 2px;
   font-size: 2rem;
   text-align: center;
+  margin-top: 0;
 }   
 
 .sec7{

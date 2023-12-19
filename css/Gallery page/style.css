@@ -40,15 +40,9 @@ body{
     
 }
 .theekum{
-    font-family: myFont;
-    text-align: center;
-    line-height: .8;
-    color: #102020;
+  height: 150px;
+  width: 250px;
 }
-.ekumspan{
-    font-size: 4rem;
-}
-
 /* responsive nav bar start */
 .nav-mob{
     /* margin-top: 2vh; */
@@ -189,7 +183,7 @@ body{
 
 .left-side {
   flex: 1;
-  padding: 20px;
+  padding-left: 7vw;
 }
 
 .left-side h1 {
@@ -429,11 +423,11 @@ body{
   display: flex;
 }
 .image-section3 img {
-  width: 369px;
+  width: 350px;
   height: 521px;
   border-radius: 20px;
   margin-top: 60px;
-  margin-left: 20px;
+  margin-left: 5px;
   object-fit: cover;
 }
 
@@ -520,6 +514,7 @@ body{
   border-radius: 20px;
   margin-top: 60px;
   object-fit: cover;
+  margin-left: 5px;
 }
 
 .slideshow-container5 {
@@ -598,11 +593,12 @@ body{
   width: 100%;
 }
 .image-section4 img {
-  width: 369px;
+  width: 350px;
   height: 521px;
   border-radius: 20px;
   margin-top: 60px;
   object-fit: cover;
+  margin-left: 5px;
 }
 
 .slideshow-container4 {
@@ -687,6 +683,11 @@ body{
   nav ul li a:hover{
     background: none;
     color: cyan;
+  }
+  .theekum{
+    width: 170px;
+    height: 120px;
+    margin-top: 1vh;
   }
   .container {
     width: 100%;

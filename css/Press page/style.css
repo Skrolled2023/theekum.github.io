@@ -41,13 +41,8 @@ body{
     
 }
 .theekum{
-    font-family: myFont;
-    text-align: center;
-    line-height: .8;
-    color: #102020;
-}
-.ekumspan{
-    font-size: 4rem;
+  height: 150px;
+  width: 250px;
 }
 
 /* responsive nav bar start */
@@ -118,8 +113,8 @@ body{
     margin-top: 10vh;
   }
   .break h1{
-    font-size: 3rem;
-    width: 20%;
+    font-size: 2.6rem;
+    width: 50%;
     background-color: #545e44;
     padding-left: 5vw;
     padding-top: 2vh;
@@ -129,7 +124,7 @@ body{
   }
   .break p{
     margin-top: 2vh;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-left: 5vw;
     font-weight: 600;
   }
@@ -221,7 +216,7 @@ body{
 .left-div {
   background-color: #102020;
   width: 1020px;
-  height: 491px;
+  height: 390px;
   color: white;
   padding: 20px;
   display: flex; 
@@ -237,10 +232,10 @@ body{
 .left-div p{
   line-height: 1.7;
   width: 80%;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   position: relative;
   padding-left: 0;
-  padding-top: 100px;
+  padding-top: 60px;
   padding-right: 0px;
   float: left;
 
@@ -250,7 +245,7 @@ body{
   font-family: Playfair Display;
   background-color: #545e44;
   width: 552px;
-  height: 490.67px;
+  height: 390px;
   color: white;
   padding: 20px;
   margin-top: 4%;
@@ -263,8 +258,8 @@ body{
   padding-top: 10vh;
   line-height: 20px;
   list-style: none;
-  scale: 200%;
-  margin-left: 200px;
+  scale: 1.8;
+  margin-left: 150px;
 }
 
 .right-div ul .li {
@@ -287,6 +282,7 @@ body{
   border-radius: 20px;
   top: 0;
   transition: opacity 0.5s ease-in-out;
+  object-fit: cover;
 }
 
 
@@ -303,7 +299,7 @@ body{
   margin-left: 2.5%;
   background-color: #102020;
   width: 1100px;
-  height: 892px;
+  height: fit-content;
   padding: 20px;
   box-sizing: border-box;
   border-radius: 5px;
@@ -311,6 +307,7 @@ body{
 }
 .card2 {
   display: flex;
+  height: 20vh;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 5px solid #ffffff;
@@ -319,14 +316,14 @@ body{
   border: none;
 }
 .card-image2 {
-  width: 250px;
-  height: 250px;
+  width: 170px;
+  height: 100px;
   margin-right: 20px;
-  border-radius: 20px;
+  object-fit: contain;
 }
 
 .card-image2:hover{
-  transform: scale(1.05); /* Makes the card slightly bigger */
+  transform: scale(1.05);
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
 
@@ -334,12 +331,23 @@ body{
 .card-text2 {
   color: white;
   flex-grow: 1;
-  margin-top: 5%;
+  margin-top: 0%;
+}
+.card-text2 p{
+  margin-top: 2vh;
+}
+.card-text2 a{
+  text-decoration: none;
+  color: #fff;
+  transition: all ease-in-out .2s;
+}
+.card-text2 a:hover{
+  color: #888888;
 }
 .right-side2 {
   font-family: 'Playfair Display', serif;
   width: 509px;
-  height: 1092px;
+  height: 900px;
   padding: 20px;
   margin-top: 4%;
   box-sizing: border-box;
@@ -352,6 +360,12 @@ body{
 }
 .newsletter2 {
   text-align: center;
+}
+.newsletter2 p{
+  width: 80%;
+  margin-left: 3vw;
+  font-weight: 600;
+  margin-top: 2vh;
 }
 .newsletter2 input[type="email"] {
   width: 100%;
@@ -376,7 +390,7 @@ body{
 
 .container4 {
   display: flex;
-  max-width: 1280px; /* Adjust based on actual requirements */
+  max-width: 100%; 
 }
 
 .left-div3, .right-div3 {
@@ -407,7 +421,7 @@ body{
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(3, 368px);
+  grid-template-columns: repeat(4, 200px);
   grid-gap: 20px;
 }
 
@@ -418,23 +432,29 @@ body{
 }
 /* Styling for the cards in the left division */
 .card {
-  width: 325px;
-  height: 400px;
+  width: 200px;
+  height: 220px;
   background-color: #102020;
   color: #ffffff;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .card img {
-  width: 325px;
-  height: 250px;
+  width: 200px;
+  height: 130px;
   display: block;
+  object-fit: contain;
   background-size: contain;
 }
 
-.card h3, .card .sub-body, .card .date {
+.card a, .card .sub-body, .card .date {
   padding: 10px;
   font-family: Montserrat;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  transition: all ease-in-out .2s;
 }
 
 
@@ -478,7 +498,7 @@ body{
 
 .magazine-card {
   width: 350px;
-  height: 480px;
+  height: 450px;
   background-color: #102020;
   border-radius: 20px;
 }
@@ -499,11 +519,12 @@ body{
 .magazine-card .magazine-body{
   font-family: 'Montserrat', sans-serif;
   font-size: medium;
-  line-height: px;
+  line-height: 1.5;
   text-align: justify;
   color: #ffffff;
   padding-top: 10%;
-  padding-left: 15%;
+  padding-left: 8%;
+  width: 90%;
 }
 
 .magazine-card button {
@@ -575,7 +596,11 @@ body{
     background: none;
     color: cyan;
   }
-
+  .theekum{
+    width: 170px;
+    height: 120px;
+    margin-top: 1vh;
+  }
   .right-div{
     display: none;
   }
