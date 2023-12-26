@@ -117,8 +117,11 @@ body{
     height: 100vh;
     padding-left: 9vw;
   }
-  .hero img{
+  .hero-img{
     scale: .7;
+  }
+  .hero-mob{
+    display: none;
   }
   .name{
     height: 100vh;  
@@ -503,9 +506,12 @@ body{
           padding-right: 0vh;  
           height: 50vh;
         }
-        .hero img{
-          height: 30vh;
-          width: 30vh;        
+        .hero-img{
+          display: none;   
+        }
+        .hero-mob{
+          display: block;
+          width: 30vh;
         }
         .name{
           height: auto;  
@@ -521,7 +527,7 @@ body{
           margin-top: 5vh;
           display: flex;
           justify-content: start;
-          padding-left: 60vw;
+          padding-left: 54vw;
         }
         .name1 span{
           padding-left: 8vw;
@@ -597,6 +603,7 @@ body{
           height: 250px;
           width: 100%;
           border-radius: 5px;
+          object-fit: contain;
         }
         .per1{
           display: flex;
@@ -642,17 +649,19 @@ body{
           display: none;
         }
         .leg-info img {
-          top: -6vh;
-          height: 200px;
+          top: -12vh;
+          height: 250px;
           width: 385px;
+          object-fit: cover;
         }
         .break3-text{
           margin-top: 20vh;
           font-size: 55px; 
         }
         .break4-text{
-          margin-top: 20vh;
+          margin-top: 27vh;
           font-size: 40px; 
+          margin-left: 50vw;
         }
         .break4{
           width: 20%;
@@ -660,7 +669,7 @@ body{
           margin-bottom: 0.4vh;
         }
         .break3 {
-          margin-top: 10vh;
+          margin-top: 25vh;
           flex-direction: column;
           padding-left: 0;
           padding: 0;
@@ -692,9 +701,10 @@ body{
           border-radius: 5px;
           position: absolute;
           left: 1vw;
-          top: -8vh;
-          height: 200px;
+          top: -12vh;
+          height: 300px;
           width: 385px;
+          object-fit: cover;
         }
        .underline{
         display: block;
@@ -711,6 +721,7 @@ body{
         }
         .last-sec {
           font-size: .6rem;
+          margin-top: 10vh;
         }
         .hide{
           display: none;
@@ -796,7 +807,3 @@ body{
       width: 100%;
     }
   }
-  
-  
-
-
