@@ -1,0 +1,551 @@
+
+@media (max-width: 768px) {
+    body {
+        /* Add your styles for body at or below 600px here */
+    } 
+
+    .heroVideo {
+        height: 80vh;
+    }
+
+    .herotext {
+        width: 80%;
+        font-size: 1.3vh;
+        margin-top: 35vh;
+    }
+    .theekum{
+      width: 170px;
+      height: 120px;
+      margin-top: 1vh;
+    }
+    .sec1 {
+        width: 82%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        background-color: #102020;
+        padding: 20px;
+        padding-top: 10px;  
+        color: #B2935B;
+        position: relative;
+    }
+    .sec1-div{
+        flex-direction: column;
+        gap: 0.1vh;
+        padding-left: 0;
+    }
+
+    .sec1 h1 {
+        font-family: myFont;
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .sec1 h3 {
+        width: 100%;
+        line-height: 2.8;
+        font-weight: 500;
+        color: #C9B981;
+        font-size: .8rem;
+        margin-top: 0px;
+    }
+
+    .sec1-img {
+        margin-top: 15vh;
+        position: absolute;
+        width: 70%;
+        height: 30vh;
+        bottom: -15vh;
+        right: 0;
+    }
+    .sec2{
+      height: 5vh;
+      /* background-color: black; */
+      margin-top: 10vh;
+    }
+    .sec2-head{
+      display: flex;
+      justify-content: end;
+      margin-top: 20vh;
+      text-align: end;
+    } 
+    .sec2-head h1{
+      width: 50%;
+      text-align: center; 
+      font-size: 2rem;
+      padding: 2vh 0;
+      padding-right: 10vw;
+    }
+    .box {
+      scale: 1;
+    }
+      .sec3{
+        margin-top: 20vh;
+        width: 100%;
+        height: 50vh;
+        margin-bottom: 0vh;
+    }
+    .sec3 h1{
+      padding-top: 8vh;
+      font-size: 2.3rem;
+    }
+    .sec3-img{
+      display: none;
+    }
+    .sec3-img2{
+      display: flex;
+      flex-direction: column;
+      padding: 2vh;
+      gap: 4vh;
+    }
+    .mobile1{
+      display: flex;
+      width: 100%;
+      gap: 7vw;
+    }
+    .mobile1 img{
+      height: 15vh;
+      width: 42vw;
+      border-radius: 3px;
+    }
+    .mobile2 img{
+      width: 90vw;
+      height: 20vh;
+      border-radius: 3px;
+    }
+    .sec4 {
+      display: none;
+    }
+    .navbar {
+      display: none;
+    }
+    .theekum{
+      font-size: 2rem;
+    }
+    nav{
+      padding: 0 20px 0 20px;
+      position: relative;
+    }
+    .nav-mob{
+      display: block;
+    }
+    .navbar {
+      display: none;
+    }
+    .theekum{
+      font-size: 2rem;
+    }
+    nav{
+      padding: 0 20px 0 20px;
+      position: relative;
+    }
+    .nav-mob{
+      display: block;
+    }
+    .sec4-mob {
+      /* You may want to adjust padding, margins, etc., here */
+      margin-top: 20vh;
+      display: block;
+      
+    }
+    .opacity-mob {
+      position: relative;
+      width: 100%;
+      height: 10vh;
+      background-color: transparent;
+      border-radius: 0 1.5vh 1vh 0;
+    }
+
+  .opacity-mob::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0; /* Remains combined for clarity */
+      background-color: #242D16;
+      opacity: .55;
+      border-radius: inherit;
+      z-index: -1;
+    }
+
+    /* Adjust the content container for the mobile version */
+    .content-mob {
+      /* Adjust content styles for mobile, such as padding, alignment, etc. */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      position: relative;
+    }
+    
+    .overlay-text-mob{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+    }
+
+    /* Update heading styles for smaller screens */
+    .overlay-text-mob h1 {
+      font-family: 'Playfair Display', serif;
+      width: 90%;
+      font-size: 30px; 
+      margin: 0.5em 0; 
+      text-align: center; 
+    }
+
+    /* Update paragraph styles for smaller screens */
+    .overlay-text-mob p{
+      text-align: center;
+      font-size: 16px; 
+      margin: 0.5em 0; 
+      padding: 5vh;
+    }
+
+
+  
+/* Styles for mobile devices with a width up to 700px */
+    #slideshow-container2{
+      padding:0 2vh;
+    }
+    #slideshow-container2 img{
+          width: 100%;
+          height: 40vh;
+          object-fit:cover;
+          object-position: center;
+          border-radius: 5px;
+      } 
+      .sec6{
+        height: 80vh;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 85%;
+      /* padding: 0; */
+    }
+    .map{
+      display: none;
+    }
+    .contact-form input, .contact-form textarea {
+      margin-bottom: 20px;
+      font-size: .8rem;
+    }
+    .contact-form h2{
+      font-size: 1.5rem;
+    } 
+    .contact-form{
+      width: 50%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .voice p{
+      font-size: .5rem;
+      padding: 10px 4px;
+
+    }
+    .voice img{
+      width: 40px;
+      height: 40px;
+      padding-top:1.8vh;
+    }
+    .voice{
+      width: 100%;
+      display: flex;
+      /* justify-content: center; */
+      gap: 3vh;
+      margin-bottom:4vh;
+      margin-top: 2vh;
+    }
+    .formbg{
+      height: 80vh;
+      object-fit: cover;
+    }
+    .sec7{
+      /* background-color: #102019; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 10vh;
+    }
+    .info{
+      text-align: center;
+    }
+    .info i{
+      font-size: 2rem;
+    }
+    .info p{
+      font-size: 1rem;
+    }
+    .info h1{
+      font-size: 1.1rem;
+    }
+
+    .footer{
+      padding: 10px 5px;
+    }
+
+    .foot-icon{
+      font-size: 0.6rem;
+      gap: 2vh;
+    }
+    .footer p{
+    font-size: 0.4rem;
+    }
+
+    .foot-in{
+      gap: 10px;
+    }
+    nav .menu-btn i{
+      display: block;
+      color: #102020; 
+      font-size: 2rem;
+    }
+    #click:checked ~ .menu-btn i:before{
+      content: "\f00d";
+      color: #fff;
+      font-size: 2rem;
+    }
+    .menu-btn i{
+      color: #102020; 
+      font-size: 2rem;
+    }
+    nav ul{
+      position: fixed;
+      top: 110px;
+      left: -110%;
+      background: #102020;
+      height: 100vh;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+      z-index: 999;
+    }
+    #click:checked ~ ul{
+      left: 0;
+    }
+    nav ul li{
+      width: 100%;
+      margin: 40px 0;
+    }
+    nav ul li a{
+      width:75%;
+      margin-left: -100%;
+      display: block;
+      font-size: 16px;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    #click:checked ~ ul li a{
+      margin-left: 0px;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+      background: none;
+      color: cyan;
+    }
+    .wrapper .carousel {
+      grid-auto-columns: 100%;
+    }
+    .wrapper i:last-child{
+      right: -15px;
+    }
+    .wrapper i:first-child{
+      left: -15px;
+    }
+    .wrapper i {
+      width: 25px;
+      height: 25px;
+      font-size: 1rem;
+      line-height: 25px;
+      transform: translateY(-10%);
+    }
+    .vote{
+      margin-top: 5vh;
+      font-size: 3rem;
+      line-height: 1.2;
+    }
+    .sec5 h3{
+      margin-top: 4vh;
+      text-align: center;
+      padding: 0;
+      color: #B2935B;
+      font-size: 1rem;
+    }
+    .card p{
+      margin: 0 7vw;
+      font-size: .8rem;
+    }
+    .card-head{
+      font-size: 1.2rem;
+      margin-left: 5vw;
+      margin-top: 5vh;  
+      margin-bottom: 2vh;
+    }
+    .persona{
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      margin-left: 5vw;
+      gap: 4vw;
+    }
+
+}
+
+
+@media (min-width: 770px) and (max-width: 1150px) and (orientation: landscape) {
+    
+    .navbar a{
+      font-size: .8rem;
+    }  
+    .wrapper .carousel {
+      grid-auto-columns: calc((100% / 2) - 9px);
+    }
+    .navbar a {
+      margin: 0 1rem;
+    }
+    .box {
+      scale: 2.5;
+   }
+   .opacity{
+    width: 70%;
+   }
+   .opacity h1{
+    font-size: 3rem;
+    width: 70%; /* This affects both selectors. If .span should not have width, you might want to split these */
+    }
+    .map {
+      width: 50%;    
+      height:75.5vh;
+      border: 1px solid #000;
+    }
+    .container {
+      width: 70%;
+    }
+    .contact-form h2{
+      letter-spacing: 2px;
+      font-size: 2rem;
+      text-align: center;
+      margin-top: 0;
+    }  
+    .voice p{
+      font-size: .7rem;
+      line-height: 1.5;
+      padding: 10px 9px;
+      border: 1px solid #5A5A5A;
+      border-radius: 5px;
+    }
+    .contact-form input, .contact-form textarea {
+      margin-bottom: 10px;
+    }
+    .contact-form button {
+      margin-top: 20px;
+    }
+    .voice{
+      margin-bottom: 20px;
+    }
+    .sec1 h3{
+      width: 50%;
+      margin-top: 25vh;
+      line-height: 2.5;
+      font-weight: 500;
+      color: #C9B981;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+}
+  
+@media (max-width:1000px) and (orientation: landscape){
+  
+  .navbar a{
+    font-size: .7rem;
+    font-weight: 700;
+  }  
+  .sec1 h3{
+    font-size: 1rem;
+  }
+  .sec2-head{
+    margin-top: 60vh;
+    text-align: end;
+  } 
+  .sec2-head h1{
+    font-size: 2rem;
+  }
+  .box{
+    scale: 1.5;
+  }
+  .sec3 h1{
+    padding-top: 10vh;
+    font-size: 3rem;
+  }
+  .opacity h1{
+    width: 50%;
+    font-size: 2.5rem;
+    padding-left: 6vw;
+    }
+  .opacity{
+    width: 65vw;
+    height: 42vh;
+  }
+  .overlay-text p {
+    font-size: 1rem;
+  }
+  #slideshow-container {
+    width: 110%;
+  }
+  .voice img{
+    width: 30px;
+    height: 30px;
+    padding-top:1.8vh;
+  }
+  .voice p{
+    font-size: .5rem;
+    padding: 5px 5px;
+  }
+  .contact-form h2{
+    font-size: 1.2rem;
+  }   
+  .voice{
+    margin-bottom:1vh;
+    margin-top: 2vh;
+  }
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    font-size: .8rem;
+  }
+  .sec6{
+      height: 130vh;
+  }
+  .contact-form {
+    height: 100vh;
+  }
+  .map{
+    height: 117vh;
+  }
+  .sec7{
+    padding-top: 20vh;
+  }
+  .info i{
+    font-size: 2.5rem;
+  }
+  .info p{
+    font-size: .8rem;
+    line-height:.5;
+  }
+  .info h1{
+    font-size: 1.2rem;
+  }
+  
+}
+
+
+  
+

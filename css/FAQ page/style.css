@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: myFont;
+    src: url(font.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.main{
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+.navbar a {
+    margin: 0 3rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    font-size: 1.1vw;
+    font-weight: 500; 
+    transition: color 0.3s ease;
+    text-transform:uppercase;
+    
+}
+.theekum{
+  height: 150px;
+  width: 250px;
+}
+
+/* responsive nav bar start */
+.nav-mob{
+    /* margin-top: 2vh; */
+    display: none;
+  }
+  nav{
+    display: flex;
+    width: 100%;
+    height: 14vh;
+    background: transparent;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+    flex-wrap: wrap;
+  }
+  nav .logo{
+    font-size: 25px;
+    font-weight: 600;
+  }
+  nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  nav ul li{
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    color: #000000;
+    background: #000000;
+  }
+  nav .menu-btn i{
+    color: #000000;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+  }
+  input[type="checkbox"]{
+    display: none;
+  }
+  .no-scroll {
+    overflow: hidden;
+    height: 100%;
+  }
+  .nav-bg{
+    
+    background-color: #102020;
+  }
+  .nav-col{
+    color: rgb(255, 255, 255) !important;
+  }
+  /* responsive nav bar end */
+
+
+  .footer{
+    margin-top: 20vh;
+    background-color: #545e44;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    margin-bottom: .5vh;
+  }
+  
+  .foot-icon{
+    
+    font-size: 1.5rem;
+    display: flex;
+    gap: 4vh;
+  }
+  .footer p{
+   font-size: 0.8rem;
+  }
+  
+  .foot-in{
+    display: flex;
+    gap: 60px;
+  }
+
+  /* all hover effects */
+  
+  .navitems a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #000000; 
+    overflow: hidden;
+  }
+  
+  .navitems a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; 
+    bottom: 0;
+    left: 0;
+    background-color: #000000; 
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .navitems a:hover::after,
+  .navitems a:focus::after {
+    width: 100%;
+  }
+
+/* CONTAINER 1 */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  background: #102020;
+  color: #fff;
+  width: 60%;
+  height: 141px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border-radius: 0px 10px 10px 0px; 
+  margin-top: 5%;
+  font-family: Playfair Display;
+  line-height: 74px;
+  font-style: bold;
+}
+.title {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+}
+
+.left-div {
+  width: 960px;
+  height: 640px;
+  background-color: #545E44;
+  padding: 20px;
+  color: #fff;
+  margin-top: 2%;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.left-div h2{
+  font-family: Playfair Display;
+  font-size: 30px;
+  line-height: 77px;
+  margin-left: 4%;
+}
+
+.left-div p{
+  font-family: Montserrat;
+  font-size: 26px;
+  line-height: 53px;
+  margin-left: 4%;
+}
+
+.right-div {
+  flex-grow: 1;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.right-div .call-us p{
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.right-div .visit-us p{
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height:2;
+}
+
+.right-div .social p{
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 75px;
+}
+
+
+h2 {
+  margin-bottom: 10px;
+  font-family: Playfair Display;
+}
+
+form {
+  margin-top: 8vh;
+  padding-left: 4%;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"]{
+  width: calc(100% - 22px);
+  margin-top: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+textarea {
+  max-width: 400px;
+  overflow: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-height: 100px;
+  margin-right: 4vw;
+}
+
+#contact-form input ,#contact-form textarea{
+  width: 400px;
+} 
+
+
+.inpname, .inpemail{
+  display: inline-block;
+}
+
+.inpmsg, .submitBtn{
+  display: inline-block;
+}
+.call-us, .visit-us, .social {
+  margin-bottom: 40px;
+}
+.social i{
+  margin: 5px;
+}
+address {
+  font-style: normal;
+}
+
+.submitBtn{
+  margin-bottom: 5%;
+}
+button {
+  font-family: inherit;
+  font-size: 20px;
+  background: #102020;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: white solid;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  transform: translateX(5em);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+
+#map-container {
+  height: 700px;
+  width: 100%;
+  background-color: #102020;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+#map {
+  height: 90%;
+  width: 85%; /* Adjust the width as needed */
+  border-radius: 10px;
+}
+
+/* SECTION 3 AND FAQ */
+.faq-mob{
+  display: none !important;
+}
+.faq-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+}
+.accordion{
+  max-width: 1100px;
+  width: 100%;
+  background: #FFF;
+  padding: 15px 0;
+  border-radius: 8px;
+}
+.accordion .accordion-content{
+  color: #fff;
+  margin: 10px 0;
+  border-radius: 4px;
+  background: #545e44;
+  border: 1px solid #545e44;
+  overflow: hidden;
+}
+.accordion-content:nth-child(2){
+  background: #545e44;
+  border: 1px solid #545e44;
+}
+.accordion-content:nth-child(3){
+  background: #545e44;
+  border: 1px solid #545e44;
+}
+.accordion-content:nth-child(4){
+  background: #545e44;
+  border: 1px solid #545e44;
+}
+.accordion-content.open{
+  padding-bottom: 10px;
+}
+.accordion-content header{
+  display: flex;
+  min-height: 50px;
+  padding: 0 15px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s linear;
+}
+.accordion-content.open header{
+  min-height: 35px;
+}
+.accordion-content header .title{
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 20px;
+}
+.accordion-content header i{
+  font-size: 15px;
+  color: #fff;
+}
+.accordion-content .description{
+  height: 0;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 500;
+  padding: 0 40px;
+  transition: all 0.2s linear;
+  line-height: 2;
+}
+#FAQ{
+  font-size: 40px;
+  color: #B2935B;
+  font-family: 'Playfair Display', serif;
+}
+
+.faq-header {
+  flex: 1;
+  background-color: #ffffff; /* Light grey background */
+  padding: 50px;
+  box-sizing: border-box;
+  margin-left: 10%;
+  text-align: left;
+}
+
+.faq-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 66px;
+  font-weight: 600;
+  width: 500px;
+}
+
+.info-box {
+  padding: 35px;
+  color: white;
+  border-radius: 10px 0 0 10px;
+}
+
+.info-box h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.info-box p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  line-height: 2;
+}
+ 
+
+p.accordion {
+  background-color: #545e44;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom:10px;
+  border-radius:  10px 0 0 10px;
+}
+
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+p.accordion.active, p.accordion:hover {
+  background-color: #3c4332;
+}
+
+/* Unicode character for "plus" sign (+) */
+p.accordion:after {
+  content: '\2795'; 
+  font-size: 13px;
+  color: #ffffff;
+  float: right;
+  margin-left: 5px;
+}
+
+/* Unicode character for "minus" sign (-) */
+p.accordion.active:after {
+  content: "\2796"; 
+}
+
+/* Style the element that is used for the panel class */
+
+div.panel {
+  padding: 30px 18px;
+  background-color: #102020;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+  opacity: 0;
+  margin-bottom:10px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+div.panel.show {
+  opacity: 1;
+  max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+  .nav-mob{
+    display: block;
+  }
+  nav .menu-btn i{
+    display: block;
+    color: #102020; 
+    font-size: 2rem;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+    color: #ffffff;
+    font-size: 2rem;
+  }
+  .menu-btn i{
+    color: #102020; 
+    font-size: 2rem;
+  }
+  nav ul{
+    position: fixed;
+    top: 110px;
+    left: -170%;
+    background: #102020;
+    height: 100vh;
+    width: 130%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+    z-index: 999;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li a{
+    width:75%;
+    margin-left: -100%;
+    display: block;
+    font-size: 16px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: cyan;
+  }
+  .theekum{
+    width: 170px;
+    height: 120px;
+    margin-top: 1vh;
+  }
+  .header {
+    margin-top: 10vh;
+    width: 80%;
+    font-size: .8rem;
+    height: auto;
+    letter-spacing: 2px;
+  }
+  .right-div{
+    display: none;
+  }
+  .left-div {
+    width: 95%;
+    height: 100%;
+    background-color: #545E44;
+    padding: 20px;
+    color: #fff;
+    margin-top: 2%;
+    border-radius: 0px 20px 20px 0px;
+}
+  .left-div h2 {
+    font-size: 25px;
+  }
+  .left-div p {
+    font-size: 18px;
+    line-height: 2;
+  }
+  form {
+    margin-top: 20px;
+    padding-left: 4%;
+    overflow: hidden;
+  }
+  #map-container {
+    height: 500px;
+    margin-top: 10vh;
+  }
+  textarea{
+    margin-bottom: 2vh;
+  }
+  .faq-desk{
+    display: none !important;
+  }
+  .faq-mob{
+    display: block !important;
+  }
+  .faq-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+  }
+  .info-box {
+    margin-top: 10vh;
+    padding: 15px;
+    color: white;
+    border-radius: 0px 0 0 0px;
+  }
+  .info-box h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .info-box p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+    margin-top: 5vh;
+  }
+  .faq-header {
+    margin-left: 1%;
+
+  }
+  #FAQ {
+    font-size: 40px;
+  }
+  .faq-header h1 {
+    font-size: 50px;
+  }
+  .footer{
+    padding: 10px 5px;
+    margin-top: 5vh;
+  }
+
+  .foot-icon{
+    font-size: 0.6rem;
+    gap: 2vh;
+  }
+  .footer p{
+  font-size: 0.4rem;
+  }
+
+  .foot-in{
+    gap: 10px;
+  }
+}
+@media (min-width: 770px) and (max-width: 1150px) and (orientation: landscape) {
+    
+  .navbar a{
+    font-size: .8rem;
+  }  
+  .navbar a {
+    margin: 0 1rem;
+  }
+}
+@media (max-width:1000px) and (orientation: landscape){
+  
+  .navbar a{
+    font-size: .7rem;
+    font-weight: 700;
+  }  
+}
